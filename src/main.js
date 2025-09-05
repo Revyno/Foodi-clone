@@ -1,12 +1,10 @@
-// Main JavaScript functionality
 
-// Mobile menu toggle function
 function toggleMobileMenu() {
-  // Add mobile menu functionality here
+
   console.log('Mobile menu toggled');
 }
 
-// Smooth scrolling for anchor links
+// Smooth scrolling 
 function initSmoothScrolling() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -22,7 +20,7 @@ function initSmoothScrolling() {
   });
 }
 
-// Navbar background on scroll
+// Navbar background in scroll
 function initNavbarScroll() {
   const navbar = document.querySelector('nav');
   window.addEventListener('scroll', () => {
@@ -39,11 +37,10 @@ document.addEventListener('DOMContentLoaded', function() {
   initSmoothScrolling();
   initNavbarScroll();
   
-  // Add any other initialization code here
-  console.log('Foodi website loaded successfully!');
+  console.log('Foodi  loaded successfully!');
 });
 
-// Export functions if needed
+
 export { toggleMobileMenu };
 
 

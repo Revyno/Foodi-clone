@@ -1,6 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
 @import "flowbite/src/themes/default";
 
 /* Import Google Fonts */

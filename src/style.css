@@ -1,0 +1,41 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import "flowbite/src/themes/default";
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: linear-gradient(180deg, #FAFAFA 0%, #FCFCFC 100%);
+  }
+  
+  .green-blob {
+    background: #53EC62;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.8;
+  }
+  
+  .food-shadow {
+    filter: drop-shadow(2px 5px 9px rgba(0, 0, 0, 0.4));
+  }
+}
+
+
+.slider-container {
+            scroll-behavior: smooth;
+        }
+        .slide {
+            min-width: 100%;
+            transition: transform 0.5s ease-in-out;
+        }
+      
